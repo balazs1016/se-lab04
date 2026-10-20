@@ -1,0 +1,12 @@
+# Fire from the primary store after secondary and primary again
+GT4500,3,0,1,0
+TORPEDO,SINGLE  # should have fired from the primary store
+TORPEDO,SINGLE  # should have fired from the secondary store
+TORPEDO,SINGLE  # should have fired from the primary store
+TORPEDO,SINGLE  # should have fired from the secondary but it is empty so fire from primary store
+# Teszt next phase
+GT4500,2,0,1,0
+TORPEDO,SINGLE  # should have fired from the primary store
+TORPEDO,SINGLE  # should have fired from the secondary store
+TORPEDO,SINGLE  # should have fired from the primary store
+TORPEDO,SINGLE  # should have fired from the secondary but it is empty so try to fire from primary store what is also empty

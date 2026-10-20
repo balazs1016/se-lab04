@@ -1,0 +1,6 @@
+# Fire from all store but primary is empty
+GT4500,0,0,10,0
+TORPEDO,ALL  # should have fired from the secondary store
+# Fire from all store but secondary is empty
+GT4500,10,0,0,0
+TORPEDO,ALL  # should have fired from the primary store

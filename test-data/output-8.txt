@@ -1,0 +1,5 @@
+SUCCESS  # <- GT4500
+FAIL  # <- TORPEDO
+# Test next phase
+SUCCESS  # <- GT4500
+FAIL  # <- TORPEDO

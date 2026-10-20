@@ -1,0 +1,4 @@
+# Torpedo stores are fire alternating.
+GT4500,2,0,2,0
+TORPEDO,SINGLE  # should have fired from the primary store
+TORPEDO,SINGLE  # should have fired from the secondary stor

@@ -1,0 +1,6 @@
+# Fire from all store
+GT4500,10,0,10,0
+TORPEDO,ALL  # should have fired from all store
+# Fire from all store but all are empty
+GT4500,0,0,0,0
+TORPEDO,ALL  # should FAIL
