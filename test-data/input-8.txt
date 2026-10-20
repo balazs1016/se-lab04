@@ -1,3 +1,6 @@
-# Fire from all store but secondary is empty
-GT4500,10,0,0,0
-TORPEDO,ALL  # should have fired from the primary store
+# All store are empty and fire with SINGLE
+GT4500,0,0,0,0
+TORPEDO,SINGLE  # should FAIL
+# All store are empty and fire with ALL
+GT4500,0,0,0,0
+TORPEDO,SINGLE  # should FAIL
